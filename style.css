@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+:active,:hover,:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+/* a,a:hover{
+    text-decoration: none;
+} */
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+/* variable define start  */
+/* ====================================== */
+:root{
+    --primary-color:#8A47F6;
+    --secondry-color:#222222;
+    --black-color:#111111;
+    --text-color:#333333;
+    --btn-color: #FE8C45;
+    --bg-color:#F3EDFE;
+}
+
+/* variable define end   */
+/* ====================================== */
+
+/* custom scrollber start */
+/* =============================== */
+::-webkit-scrollbar{
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--primary-color);
+}
+::-webkit-scrollbar-thumb{
+    background-color:var(--btn-color) ;
+}
+/* custom scrollber end */
+/* =============================== */
+
+/* custom css start */
+/* =============================== */
+span{
+    color: var(--primary-color);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-align: left;
+}
+h1{
+    font-size: 74px;
+    font-weight: 900;
+    line-height: 92px;
+    text-align: left;
+    color: var(--black-color);
+}
+h2{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    color: var(--black-color);
+}
+p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: var(--text-color);
+}
+
+/* btn design  */
+.main-btn{
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ffffff;
+    width: 187px;
+    height: 52px;
+    top: 20px;
+    left: 1153px;
+    gap: 0px;
+    border-radius: 90px ;
+    opacity: 0px;
+    background-color: var(--btn-color);
+    transition: all .4s ease-out 0s;
+}
+
+/* custom css end */
+/* =============================== */
+/* navber css start */
+/* =============================== */
+.navigation-wrap{
+   position: fixed;
+   width: 100%;
+   left: 0;
+   z-index: 999;
+   transition: all 0.3s ease-out;
+}
+.navigation-wrap .nav-item{
+    margin-top: 0.755rem;
+    padding: 0 0.625rem;
+    transition: all 0.3s ease-out;
+}
+.navigation-wrap .nav-item a{
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+.nav-link:hover,
+.nav-link.active{
+    background-color: var(--primary-color) !important;
+    border-radius: 50px;
+    transition: all 2s ease-out;
+}
+/* custom css end */
+/* =============================== */
+
+/* navber on scroll css start */
+/* =============================== */
+.navigation-wrap.scroll-on{
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
+    transition: all 0.15s ease-in-out 0s;
+}
+.navigation-wrap.scroll-on .nav-link:hover,
+.navigation-wrap.scroll-on .nav-link.active{
+    background-color: var(--primary-color) !important;
+    border-radius: 50px;
+    transition: all 2s ease-out;
+}
+/* navber on scroll css start */
+/* ========================== */
+
+
+/* home css start */
+/* ========================== */
+#home{
+    height: 700px;
+    width: 100%;
+}
+.home-text{
+    margin-top: 200px;
+}
+.stick{
+    position: relative;
+    background-color: var(--primary-color);
+    width: 241.18px;
+    height: 25px;
+    top: -50px;
+    left: 200px;
+    gap: 0px;
+    border-radius: 70px;
+}
+.home-img{
+    margin-top: 120px;
+}
+/* home css end */
+/* ========================== */
+
+/* about css start */
+/* ========================== */
+#about{
+    background-color: var(--bg-color);
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+/* home css end */
+/* ========================== */
+/* portfolio css start */
+/* ========================== */
+
+.potfolio-nav{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 0px #0000001F;
+    border-radius: 5px;
+}
+.potfolio-nav ul li{
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+
+}
+.potfolio-nav ul li:hover{
+    color: var(--primary-color);
+}
+/* portfolio css end*/
+/* ========================== */
+/* prices css start*/
+.prices .card{
+    width: 320px !important;
+    height: 417px !important;
+    border-radius: 15px ;
+    box-shadow: 0px 0px 18px 0px #00000026;
+}
+.prices .card-title{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 34px;
+    text-align: center;
+}
+.prices .card-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+
+}
+.prices .money{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: center;
+    color: var(--black-color);
+}
+/* ========================== */
+/* prices css end*/
+/* ========================== */
+/* Testimonials css start*/
+
+.Testimonials{
+    background-color: var(--bg-color);
+}
+.tes-img{
+    border-radius: 5px;
+}
+.tes-div{
+    background-color: #E3D4FD;
+    width: 272px;
+    height: 55px;
+    border-radius: 70px;
+}
+.tes-div h4{
+   font-size: 22px;
+   font-weight: 500;
+   line-height: 22px;
+}
