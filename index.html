@@ -6,6 +6,10 @@
     <!-- bootstrap cdn link start  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- bootstrap cdn link end  -->
+   
+<!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- font awesome icon -->
 
     <!-- css like  -->
      <link rel="stylesheet" href="style.css">
@@ -56,19 +60,23 @@
 <!-- home section start -->
  <!-- ============================== -->
  <section id="home">
-  <div class="container">
+  <img src="img/Ellipse 7.png" alt="" class="hhh img-fluid">
+  <div class="container home">
+    
    <div class=" row">
     <div class=" home-text ps-3 col-md-6  text-center ">
       <h1>CAPTURING MOMENTS <span>IN</span> <br>TIME <div class="stick"></div></h1>
       <p>A Glimpse into the Past, a Snapshot of the Present.</p>
+      
       <button class="main-btn">Get Started</button>
  </div>
- <div class="home-img col-md-6 d-none d-sm-none d-md-block" >
+ <div class="home-img col-md-6 d-none d-sm-none d-lg-block" >
    <img src="img/Rectangle 32.png" alt="" class="img-fluid">
  </div>
 </div>
    </div>
- </section>
+   
+  </section>
 
 <!-- home section end -->
  <!-- ============================== -->
@@ -100,7 +108,7 @@
     <div class="container portfolio">
       <div class=" mt-4">
         <h1 class="text-center">Our <span>Portfolio</span></h1>
-        <div class="potfolio-nav">
+        <div class="potfolio-nav d-none d-md-block">
           <ul class="list-unstyled d-flex justify-content-evenly pt-2">
             <li>All</li>
             <li>Childrens</li>
@@ -136,13 +144,13 @@
 
  <!-- portfolio section end -->
  <!-- ============================== -->
-  <!-- price section start -->
+  <!-- prices section end -->
    <section id="prices">
-    <div class="container prices mt-5 ">
+    <div class="container prices mt-lg-5  ">
       <h2 class="text-center">Prices</h2>
-       <div class="row">
-        <div class="col-12 col-lg-4 mb-2">
-          <div class="card" style="width: 18rem;">
+       <div class="row ps-5 ms-3 ms-lg-0 ps-lg-0">
+        <div class="col-12 col-lg-4 mb-2 price-card">
+          <div class="card">
             <div class="card-body">
               <h2 class="card-title">Children's photography/family/pregnancy/loveshoot</h2>
               <p class="card-text">The price for this is €50.00 (incl. VAT) and takes approximately one hour.For that you get 10/15 edited digital files in large format..</p>
@@ -153,18 +161,20 @@
         </div>
 
 
-        <div class="col-12 col-lg-4 mb-2"></div>
-          <div class="card" style="width: 18rem;">
+        <div class="col-12 col-lg-4 mb-2">
+          <div class="card">
             <div class="card-body">
               <h2 class="card-title">Lifestyle Photography</h2>
-              <p class="card-text">Lifestyle photography takes place at your home in a relaxed setting. The price for this depends on how long we take. Inquire about the possibilities.</p>
+              <p class="card-text">Lifestyle photography takes place at your home in a relaxed setting. The price for this depends on possibilities.</p>
               <h2 class="money">€50.00</h2>
-              <button class="main-btn m-5 ">Get Purchase</button>
+              <button class="main-btn  m-5 ">Get Purchase</button>
             </div>
           </div>
 
-          <div class="col-12 col-lg-4 mt-2">
-            <div class="card" style="width: 18rem;">
+        </div>
+         
+          <div class="col-12 col-lg-4 ">
+            <div class="card">
               <div class="card-body">
                 <h2 class="card-title">Potrait Photography</h2>
                 <p class="card-text">Portrait photography and girlfriend shoots are also possible.
@@ -183,7 +193,8 @@
    </section>
 <!-- ============================== -->
   <!-- price section end -->
-
+  <!-- ============================== -->
+  <!-- Testimonials section start -->
   <section class="Testimonials">
     <div class="container mt-5 pb-3">
       <div class="row">
@@ -194,7 +205,10 @@
           <div class="tes-div d-flex">
             <img src="img/Ellipse 1.png" alt="">
             <h4 class="mt-3 ms-3">Amane Indahnya</h4>
-            <div></div>
+            <div>
+              <!-- <i class="bi bi-arrow-left-circle"></i>
+              <i class="bi bi-arrow-right-circle"></i> -->
+            </div>
           </div>
          </div>
          <div class="col-12 col-lg-6 mt-5">
@@ -204,15 +218,130 @@
     </div>
   </section>
 
+<!-- ============================== -->
+  <!-- Testimonials section end-->
+<!-- ============================== -->
+  <!-- feed section start-->
+
+  <section>
+    <div class="container feed mt-5">
+      <div class="">
+        <h2 class="float-start">Instagram Feed</h2>
+        <button class="main-btn float-lg-end">Join Now</button>
+      </div>
+      <div class=" d-flex justify-content-between mt-5 feed-img gap-3 mb-5">
+          <div class=""> 
+            <img src="img/feed/Rectangle 35.png" alt="" class="img-fluid">
+            <img src="img/feed/Rectangle 36 (1).png" alt="" class="img-fluid">
+          </div>
+          <div class="">
+            <img src="img/feed/Rectangle 36.png" alt="" class="img-fluid">
+            <img src="img/feed/Rectangle 37.png" alt="" class="img-fluid">
+          </div>
+          <div class="">
+            <img src="img/feed/Rectangle 38.png" alt="" class="img-fluid">
+            <img src="img/feed/Rectangle 39.png" alt="" class="img-fluid">
+          </div>
+      </div>
+        
+    </div>
+  </section>
+
+<!-- ============================== -->
+  <!-- feed section end-->
+
+  <!-- ============================== -->
+  <!-- contact section start-->
+  <section id="contact">
+      <div  class="container contact mt-lg-5 mb-5 pb-5">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h2 class="">Have A Question?</h2>
+           <p> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> enim ad minim veniam, quis nostrud exercitation ullamco <br> laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+           <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="email" class="form-control w-100" id="exampleFormControlInput1" placeholder="Enter your name " required>
+          </div>
+
+          <div class="mb-3"></div>
+            <label for="exampleFormControlInput1" class="form-label">Gmail</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+            </div>
+            <button type="submit" class="btn btn-success rounded-2 w-50">Submmit</button>
+          </div>
+
+          <div class="col-12 col-lg-6 contact-touch">
+            <div class="touch ps-4 pt-5">
+              <h2>Get In Touch!</h2>
+              <p>We love to hear from you.Our friendly Team is always here to chat.</p>
+
+              <div class="d-flex ms-2">
+                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <h6>Location:</h6>
+                  <small>199 Nueces ST,Austin,TX 78701</small>
+                </div>
+              </div>
+
+              <div class="d-flex ms-2 mt-3">
+                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <h6>Phone:</h6>
+                  <small>+1(456)666-4077</small>
+                </div>
+
+              </div>
+                 
+              <div class="d-flex ms-2 mt-3">
+                <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+                <div>
+                  <h6>Email:</h6>
+                  <small>support@free.com</small>
+                </div>
+              </div>
+                
+              </div>
+              </div>
+            </div>
+     </div>
+          
+      
+  </section>
+ <!-- ============================== -->
+  <!-- contact section end-->
+
+   <!-- ============================== -->
+  <!-- footer section start-->
+
+ <section id="footer">
+  <div class="container-fluid container-lg footer">
+    <div class="row pt-lg-5">
+      <div class="col-12 col-lg-3 col-md-6"> 
+        <img src="img/logo.png" alt="">
+      </div>
+      <div class="col-12 col-lg-3 col-md-6 mt-4 mt-lg-0">
+        <a href="">Privacy Policy</a>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6 mt-3 mt-lg-0">
+        <a href="">Terms & Conditions</a>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6 d-flex col-md-3 mt-lg-0 mt-4 ms-5 ms-md-0 d-none d-md-flex">
+       <div class="footer-icon "> <i class="fa-brands fa-facebook "></i></div>
+      <div class="footer-icon"> <i class="fa-brands fa-instagram"></i></div>
+       <div class="footer-icon"> <i class="fa-brands fa-twitter"></i></div>
+      </div>
+    </div>
+  </div>
+ </section>
+  
 
 
-
-
-
-
-
-
-
+<script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- bootstrap cdn link  -->
 </body>

@@ -19,9 +19,11 @@
         height: auto;
         
     }
-
+    #footer{
+        height: 300px;
+    }
+   
   }
-
 
   @media only screen and (max-width: 700px) {
     #home{
@@ -39,7 +41,33 @@
         height: auto;
         margin-top: 30px;
     }
+
+
+    .contact-touch{
+       display: none;
+    }
+
+    
+    .portfolio{
+        height: 400px;
+    }
+    .footer{
+        text-align: center;
+    }
+  #footer{
+    height: 300px;
   }
 
+  }
 
+  @media only screen and (max-width: 990px) {
+
+    .contact-touch{
+       display: none;
+    }
+
+    .portfolio{
+        height: 900px;
+    }
+  }
   
